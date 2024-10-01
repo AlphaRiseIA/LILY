@@ -65,7 +65,8 @@ except:
 
 tensorflow.compat.v1.reset_default_graph()
 
-#--------------------------------------------------------------------------------------------------------red = tflearn.input_data(shape=[None, len(entrenamiento_lily[0])])
+#--------------------------------------------------------------------------------------------------------
+red = tflearn.input_data(shape=[None, len(entrenamiento_lily[0])])
 red = tflearn.fully_connected(red, 50)
 red = tflearn.fully_connected(red, 50)
 red = tflearn.fully_connected(red, len(salida_lily[0]), activation="softmax")
