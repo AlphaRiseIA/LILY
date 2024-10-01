@@ -1,0 +1,19 @@
+{
+    "contenido": [
+        {
+            "tag": "test1",
+            "patrones": ["Hola", "Saludos", "Buenos días", "Buenas tardes"],
+            "respuestas": ["¡Saludos!" , "¡Hola!"]
+        },
+        {
+            "tag": "test2",
+            "patrones": ["Adiós", "Hasta luego", "Nos vemos"],
+            "respuestas": ["¡Adios!", "¡Hasta pronto!"]
+        },
+        {
+            "tag": "jiji",
+            "patrones": ["¿Cómo está el clima?", "¿Va a llover hoy?", "Pronóstico del tiempo"],
+            "respuestas": ["Y si lo miras en la tele?", "Yo que voy a saber."]
+        }
+    ]
+}
